@@ -15,3 +15,36 @@ To create and use Azure services, you and Azure subscription. After you've creat
 - **Region Pairs**: Most Azure regions are paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect an entire region.
 
 ## Describe Azure management infrastructure
+
+
+## Azure VMs
+- Provided as IaaS.
+- Up to User to keep apps and software up to date.
+
+## Azure containers
+- Azure Container Instances are provided as a PaaS
+- **VM's** virtualize the _hardware_, **containers** virtualize the _operating system_
+- Azure Container Apps are also a PaaS offering
+- Azure Kubernetes Service (AKS) is a container orchestration service. Orchestration services manage the lifecycle of containers. When you're deploying a fleet of containers, AKS can make fleet management simpler and more efficient.
+
+## Azure Functions
+- SaaS offering
+- Event-driven, serverless computer option
+- Does not require maintaining virtual machines or containers (cloud provider does all that)
+- An event wakes the function, alleviating the need to keep resources provisioned when there are no events
+- Only pay for the CPU usage while functionl is running
+- Resources allocated when function is triggered, deallocated when the function is finished
+- Can be stateless (run anew every time) or stateful (relies on context to track prior activity)
+
+## Application hosting options
+- **Azure App Service**
+	- Enables users to build and host web apps, background jobs, mobile back-ends and RESTful APIs in the programming language of their choice without managing infrastructure
+  - Automatic scaling and high availability
+  - Supports Windows and Linux
+  - Enable automated deployments from GitHub, Azure DevOps or any Git repo to support a CD model
+  - HTTP-based service
+  - Supports multiple languages including .NE, .NET Core, Java, Ruby, Node.js or Python
+- **Types of app services**
+	- Web apps, API apps, WebJobs, Mobile apps
+
+## Azure Virtual Networking
