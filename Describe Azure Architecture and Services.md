@@ -76,3 +76,9 @@ To create and use Azure services, you and Azure subscription. After you've creat
     - Data typically only available to be read if customer, or Microsoft, initiates a failover from the primary to secondary region.
     - BUT, if you enable readaccess to the secondary region, that data is _always_ available.
     - For read access to a secondary region, enable read-access geo-redundant storage (RA-GRS) or read-access geo-oxone-redundant storage (RA-GZRS). 
+**Describe Azure storage services**
+- **Azure Blobs:** A massively scalable object store for text and binary data. Also includes support for big data analytics through Data Lake Storage Gen2.
+- **Azure Files:** Manged file shares for cloud or on-premises deployments
+- **Azure Queues:** A messaging store for reliable messaging between application components
+- **Azure Disks:** Block-level storage volumes for Azure VMs
+- **Azure Tables:** NoSQL table option for structures, non-relational data
